@@ -1,13 +1,13 @@
-# MSMSE Project Suite
+# MSME Project Suite
 
-Welcome to the **MSMSE Project Suite** repository. This repository contains a collection of fundamental web development assignments and backend Python scripts designed to showcase frontend design, user interaction, and data management principles.
+Welcome to the **MSME Project Suite** repository. This repository contains a collection of fundamental web development assignments and backend Python scripts designed to showcase frontend design, user interaction, and data management principles.
 
 ## 📁 Repository Structure
 
 The project is organized into multiple standalone task directories:
 
 ```text
-priya-msmse/
+priya-msme/
 ├── .hintrc                  # Code linting/hinting configuration
 ├── ques1 calculator/        # Interactive Web Calculator
 │   ├── index.html
