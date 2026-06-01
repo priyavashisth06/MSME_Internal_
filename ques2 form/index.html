@@ -1,0 +1,77 @@
+<!--Name :- Priya -->
+<!--Roll No :- 25MEITJWD017-->
+<!--Subject:- Gaining Proficiency in Web Technologies-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="registration-card">
+        <div class="form-header">
+            <h2>COLLEGE EVENT REGISTRATION</h2>
+        </div>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name<span class="required">*</span></label>
+                <input type="text" id="name" placeholder="Enter your Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address<span class="required">*</span></label>
+                <input type="email" id="email" placeholder="example@college.edu" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile Number<span class="required">*</span></label>
+                <input type="tel" id="mobile" placeholder="+91-XXXXX-XXXXX" pattern="^\+91-\d{5}-\d{5}$" required>
+            </div>
+
+            <div class="row-group">
+                <div class="form-group inline-group">
+                    <label for="course">Course<span class="required">*</span></label>
+                    <select id="course" required size="5">
+                        <option value="B.Tech - CS">B.Tech - CS</option>
+                        <option value="B.Sc - IT">B.Sc - IT</option>
+                        <option value="B.A - English">B.A - English</option>
+                        <option value="B.Com">B.Com</option>
+                        <option value="M.B.A">M.B.A</option>
+                    </select>
+                </div>
+
+                <div class="form-group inline-group">
+                    <label>Gender<span class="required">*</span></label>
+                    <div class="radio-box">
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Male" required> Male
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Female"> Female
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Other"> Other
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">SUBMIT</button>
+            
+            <div class="reset-wrapper">
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+
+        <div class="form-footer">
+            BE PART OF THE EVENT!<br>Aao, register karol
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
